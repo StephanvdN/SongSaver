@@ -1,0 +1,82 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Roboto Condensed', sans-serif;
+  
+}
+
+
+
+header {
+  text-align: center;
+  background-image: linear-gradient(to right bottom, #00a2f8, #009bfa, #0095fb, #008efb, #0086fb, #007ff9, #0078f7, #0071f4, #0069ef, #0061ea, #0058e5, #0050e0);
+  padding: 1px;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+}
+
+.container {
+
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: blue;
+  justify-content: center; 
+  -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+margin-top: 80px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container h1 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.8rem;
+  font-size: 35px;
+  
+}
+
+
+.searchSong {
+  text-align: left;
+  padding: 10px 20px 10px 20px;
+  background-color: yellow;
+  -webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(232,232,232,1) 100%);
+}
+
+
+
+
+
+li{
+  list-style-type: none;
+}
+
+li:hover{
+  color:#00a2f8;
+}
+
+ul {
+  padding: 5px;
+}
+
+
+
+
+
+
